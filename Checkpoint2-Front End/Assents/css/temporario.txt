@@ -1,0 +1,26 @@
+1. Pseudo-classes (Mínimo de 3)As pseudo-classes são utilizadas para definir um estado especial de um elemento. Elas mudam o estilo conforme a interação do usuário ou a posição do elemento na estrutura.
+
+:hover: Altera o estilo quando o usuário passa o mouse sobre um elemento (comum em botões e links).
+
+:focus: Aplica estilo quando um elemento (como um campo de formulário) recebe o foco do teclado ou clique.
+
+:nth-child(n): Seleciona elementos com base em sua posição em um grupo (ex: mudar a cor de fundo apenas de itens pares em uma lista).
+
+:checked: Utilizada em botões de rádio ou checkboxes para indicar quando estão marcados.
+
+:not(): Seleciona todos os elementos, exceto aquele especificado dentro dos parênteses.
+
+2. Pseudo-elementos (Mínimo de 2)Diferente das classes, os pseudo-elementos são usados para estilizar partes específicas de um elemento.
+
+::placeholder: Estiliza o texto de dica dentro de campos de entrada (input ou textarea).
+
+::selection: Altera a cor de fundo e do texto quando o usuário seleciona (destaca) uma parte do conteúdo com o mouse.
+
+::first-letter: Aplica um estilo especial apenas à primeira letra de um bloco de texto (comum para criar "capitulares" em parágrafos).
+
+::marker: Permite estilizar o marcador (bolinha ou número) de itens de uma lista (<li>).  Por que isso melhora a experiência do usuário?O objetivo técnico é criar um feedback visual.
+
+Por exemplo:  Ao usar :hover em um botão, o usuário entende imediatamente que aquele elemento é clicável.
+Ao usar :focus em um campo de contato, o usuário sabe exatamente onde está digitando.  O uso de ::selection com as cores da sua marca torna o design mais "polido" e profissional.
+
+
